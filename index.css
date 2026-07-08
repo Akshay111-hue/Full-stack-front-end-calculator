@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightcyan;
+}
+
+.calculator{
+    width: 220px;
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    gap: 5px;
+}
+
+input{
+    grid-column: span 4;
+    height: 40px ;
+    font-size: 20px;
+    text-align: right;
+}
+
+button{
+    height: 50px;
+    font-size: 18px;
+    background-color: bisque;
+
+}
